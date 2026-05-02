@@ -1,5 +1,3 @@
-#written by Natalie House - recreating work from my PhD in R - https://github.com/nataliehouse/
-
 library(jsonlite)
 library(tidyverse)
 library(networkD3)
@@ -243,15 +241,12 @@ server <- function(input, output, session) {
       Value = "value",
       NodeID = "name",
       Group = "group",
-      
       charge = -80,
       linkDistance = 120,
-      
       opacity = 0.95,
       fontSize = 14,
       zoom = TRUE,
       bounded = TRUE,
-      
       linkColour = "rgba(80,80,80,0.25)",
       opacityNoHover = 1
     )
