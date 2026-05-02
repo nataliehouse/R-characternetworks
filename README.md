@@ -20,7 +20,14 @@ The app currently supports:
 - *The Stainless Steel Rat* — Harry Harrison  
 - *A Study in Scarlet* — Arthur Conan Doyle  
 - *Harry Potter and the Philosopher's Stone* — JK Rowling  
-- *The Lion, The Witch and The Wardrobe* — C.S. Lewis  
+- *The Lion, The Witch and The Wardrobe* — C.S. Lewis
+
+Each JSON file contains:
+
+- `characters`: character IDs and names  
+- `relationships`: chapter-wise interaction data
+
+These files were generated during my PhD using the data in my noveldialogues repo.
 
 ## 🚀 Features
 
@@ -29,17 +36,15 @@ The app currently supports:
 - Dynamic filtering of active characters  
 - Support for multiple novels via JSON input  
 
-## 🛠️ Tech Stack
+## 🛠️ Required Packages
 
-- R  
-- Shiny  
-- networkD3  
-- tidyverse  
-- igraph  
-- jsonlite  
-- purrr  
-
-Each JSON file contains:
-
-- `characters`: character IDs and names  
-- `relationships`: chapter-wise interaction data
+Install the required R packages:
+```r
+install.packages(c(
+  "shiny",
+  "tidyverse",
+  "networkD3",
+  "igraph",
+  "jsonlite",
+  "purrr"
+))
