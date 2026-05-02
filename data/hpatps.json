@@ -1,0 +1,494 @@
+{
+  "characters": [
+      {
+        "id": "C1", "name": "Harry Potter", "role": "character1",
+			"startNode" : [	"harrypotter" ], "desc" : "A half-blood wizard and Hogwarts student in Gryffindor."
+      },
+      {
+        "id": "C2", "name": "Rubeus Hagrid", "role": "character2",
+			"startNode" : [ "rubeushagrid" ], "desc" : "A half-giant wizard and the Keeper of Keys and Grounds at Hogwarts."
+      },
+      {
+        "id": "C3", "name": "Ron Weasley", "role": "character3",
+			"startNode" : [	"ronweasley" ], "desc" : "A pure-blood wizard and Hogwarts student in Gryffindor."
+      },
+      {
+        "id": "C4", "name": "Hermione Granger", "role": "character4",
+			"startNode" : [	"hermionegranger" ], "desc" : "A Muggle-born witch and Hogwarts student in Gryffindor."
+      },
+      {
+        "id": "C5", "name": "Minerva McGonagall", "role": "character5",
+			"startNode" : [	"minervamcgonagall" ], "desc" : "A half-blood witch and Professor, Head of Gryffindor and Deputy Headmistress at Hogwarts."
+      },
+      {
+        "id": "C6", "name": "Vernon Dursley", "role": "character6",
+			"startNode" : [ "vernondursley" ], "desc" : "A Muggle and uncle to Harry Potter."
+      },
+      {
+        "id": "C7", "name": "Albus Dumbledore", "role": "character7",
+			"startNode" : [	"albusdumbledore" ], "desc" : "A half-blood wizard and Professor, Headmaster at Hogwarts."
+      },
+	  {
+        "id": "C8", "name": "Draco Malfoy", "role": "character8",
+			"startNode" : [	"dracomalfoy" ], "desc" : "A pure-blood wizard and Hogwarts student in Slytherin."
+      },
+	  
+	  {
+        "id": "C9", "name": "Neville Longbottom", "role": "character9",
+			"startNode" : [	"nevillelongbottom" ], "desc" : "A pure-blood wizard and Hogwarts student in Gryffindor."
+      },
+	  {
+        "id": "C10", "name": "Quirinus Quirrell", "role": "character10",
+			"startNode" : [	"quirinusquirrell" ], "desc" : "A half-blood wizard and Professor at Hogwarts."
+      },
+	  {
+        "id": "C11", "name": "Oliver Wood", "role": "character11",
+			"startNode" : [	"oliverwood" ], "desc" : "A Hogwarts student in Gryffindor, Keeper and Captain for the Gryffindor Quidditch team."
+      }, 
+	  {
+        "id": "C12", "name": "Severus Snape", "role": "character12",
+			"startNode" : [	"severussnape" ], "desc" : "A half-blood wizard and Professor, Head of Slytherin at Hogwarts."
+      },
+	  {
+        "id": "C13", "name": "Molly Weasley", "role": "character13",
+			"startNode" : [	"mollyweasley" ], "desc" : "A pure-blood witch and matriarch of the Weasley family."
+      },
+	  {
+        "id": "C14", "name": "Fred Weasley", "role": "character14",
+			"startNode" : [	"fredweasley" ], "desc" : "A pure-blood wizard and Hogwarts student in Gryffindor."
+      },
+	  {
+        "id": "C15", "name": "Petunia Dursley", "role": "character15",
+			"startNode" : [	"petuniadursley" ], "desc" : "A Muggle and aunt to Harry Potter."
+      },
+	  {
+        "id": "C16", "name": "George Weasley", "role": "character16",
+			"startNode" : [	"georgeweasley" ], "desc" : "A pure-blood wizard and Hogwarts student in Gryffindor."
+      },
+	  {
+        "id": "C17", "name": "Argus Filch", "role": "character17",
+			"startNode" : [	"argusfilch" ], "desc" : "A Squib and caretaker of Hogwarts."
+      },
+	  {
+        "id": "C18", "name": "Dudley Dursley", "role": "character18",
+			"startNode" : [	"dudleydursley" ], "desc" : "A Muggle and cousin of Harry Potter."
+      },
+	  {
+        "id": "C19", "name": "Garrick Ollivander", "role": "character19",
+			"startNode" : [	"garrickolivander" ], "desc" : "A wizard and the proprietor of Ollivanders wand shop."
+      },
+	  {
+        "id": "C20", "name": "Percy Weasley", "role": "character20",
+			"startNode" : [	"percyweasley" ], "desc" : "A pure-blood wizard and Hogwarts student and prefect in Gryffindor."
+      },
+	  {
+        "id": "C21", "name": "Peeves", "role": "character21",
+			"startNode" : [	"peeves" ], "desc" : "A poltergeist at Hogwarts."
+      },
+	  {
+        "id": "C22", "name": "Firenze", "role": "character22",
+			"startNode" : [	"firenze" ], "desc" : "A centaur, part of the Forbidden Forest centaur colony."
+      },
+	  {
+        "id": "C23", "name": "Lord Voldemort", "role": "character23",
+			"startNode" : [	"lordvoldemort" ], "desc" : "A half-blood Dark Wizard."
+      },
+	  {
+        "id": "C24", "name": "Ronan", "role": "character24",
+			"startNode" : [	"ronan" ], "desc" : "A centaur, part of the Forbidden Forest centaur colony."
+      }
+    ],
+  "relationships": [
+  [
+	{"source":"C2", "target":"C5", "type":"", "strength":"4"},
+	{"source":"C2", "target":"C7", "type":"", "strength":"6"},
+	{"source":"C5", "target":"C2", "type":"", "strength":"3"},
+	{"source":"C5", "target":"C7", "type":"", "strength":"33"},
+	{"source":"C6", "target":"C15", "type":"", "strength":"8"},
+	{"source":"C6", "target":"C18", "type":"", "strength":"1"},
+	{"source":"C7", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C7", "target":"C2", "type":"", "strength":"5"},
+	{"source":"C7", "target":"C5", "type":"", "strength":"31"},
+	{"source":"C15", "target":"C6", "type":"", "strength":"5"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C6", "type":"", "strength":"7"},
+	{"source":"C1", "target":"C15", "type":"", "strength":"4"},
+	{"source":"C6", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C6", "target":"C15", "type":"", "strength":"3"},
+	{"source":"C6", "target":"C18", "type":"", "strength":"1"},
+	{"source":"C15", "target":"C1", "type":"", "strength":"10"},
+	{"source":"C15", "target":"C6", "type":"", "strength":"6"},
+	{"source":"C15", "target":"C18", "type":"", "strength":"4"},
+	{"source":"C18", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C18", "target":"C6", "type":"", "strength":"3"},
+	{"source":"C18", "target":"C15", "type":"", "strength":"8"}
+  ],
+  
+   [
+	{"source":"C1", "target":"C6", "type":"", "strength":"11"},
+	{"source":"C1", "target":"C15", "type":"", "strength":"3"},
+	{"source":"C1", "target":"C18", "type":"", "strength":"2"},
+	{"source":"C6", "target":"C1", "type":"", "strength":"25"},
+	{"source":"C6", "target":"C15", "type":"", "strength":"22"},
+	{"source":"C6", "target":"C18", "type":"", "strength":"17"},
+	{"source":"C15", "target":"C1", "type":"", "strength":"3"},
+	{"source":"C15", "target":"C6", "type":"", "strength":"7"},
+	{"source":"C18", "target":"C1", "type":"", "strength":"3"},
+	{"source":"C18", "target":"C6", "type":"", "strength":"6"},
+	{"source":"C18", "target":"C15", "type":"", "strength":"4"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C2", "type":"", "strength":"22"},
+	{"source":"C1", "target":"C6", "type":"", "strength":"2"},
+	{"source":"C1", "target":"C15", "type":"", "strength":"1"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"46"},
+	{"source":"C2", "target":"C6", "type":"", "strength":"19"},
+	{"source":"C2", "target":"C15", "type":"", "strength":"7"},
+	{"source":"C2", "target":"C18", "type":"", "strength":"1"},
+	{"source":"C6", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C6", "target":"C2", "type":"", "strength":"13"},
+	{"source":"C6", "target":"C18", "type":"", "strength":"1"},
+	{"source":"C15", "target":"C1", "type":"", "strength":"3"}
+  ],
+  
+  [
+ 	{"source":"C1", "target":"C2", "type":"", "strength":"37"},
+	{"source":"C1", "target":"C8", "type":"", "strength":"11"},
+	{"source":"C1", "target":"C10", "type":"", "strength":"1"},
+	{"source":"C1", "target":"C19", "type":"", "strength":"4"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"76"},
+	{"source":"C2", "target":"C10", "type":"", "strength":"1"},
+	{"source":"C2", "target":"C19", "type":"", "strength":"4"},
+	{"source":"C8", "target":"C1", "type":"", "strength":"18"},
+	{"source":"C10", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C19", "target":"C1", "type":"", "strength":"21"},
+	{"source":"C19", "target":"C2", "type":"", "strength":"5"}
+  ],
+  
+  [
+   	{"source":"C1", "target":"C3", "type":"", "strength":"27"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"2"},
+	{"source":"C1", "target":"C6", "type":"", "strength":"8"},
+	{"source":"C1", "target":"C8", "type":"", "strength":"3"},
+	{"source":"C1", "target":"C9", "type":"", "strength":"1"},
+	{"source":"C1", "target":"C13", "type":"", "strength":"4"},
+	{"source":"C1", "target":"C14", "type":"", "strength":"4"},
+	{"source":"C1", "target":"C16", "type":"", "strength":"5"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C2", "target":"C9", "type":"", "strength":"1"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"57"},
+	{"source":"C3", "target":"C9", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"6"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"9"},
+	{"source":"C6", "target":"C1", "type":"", "strength":"11"},
+	{"source":"C8", "target":"C1", "type":"", "strength":"8"},
+	{"source":"C8", "target":"C3", "type":"", "strength":"3"},
+	{"source":"C9", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C9", "target":"C2", "type":"", "strength":"1"},
+	{"source":"C9", "target":"C3", "type":"", "strength":"3"},
+	{"source":"C13", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C13", "target":"C3", "type":"", "strength":"5"},
+	{"source":"C13", "target":"C14", "type":"", "strength":"11"},
+	{"source":"C13", "target":"C16", "type":"", "strength":"8"},
+	{"source":"C13", "target":"C20", "type":"", "strength":"4"},
+	{"source":"C14", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C14", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C14", "target":"C20", "type":"", "strength":"4"},
+	{"source":"C16", "target":"C1", "type":"", "strength":"6"},
+	{"source":"C16", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C16", "target":"C13", "type":"", "strength":"5"},
+	{"source":"C16", "target":"C20", "type":"", "strength":"3"},
+	{"source":"C20", "target":"C13", "type":"", "strength":"2"},
+	{"source":"C20", "target":"C14", "type":"", "strength":"1"},
+	{"source":"C20", "target":"C16", "type":"", "strength":"1"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C1", "target":"C20", "type":"", "strength":"4"},
+	{"source":"C2", "target":"C5", "type":"", "strength":"1"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"4"},
+	{"source":"C3", "target":"C9", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C20", "type":"", "strength":"1"},
+	{"source":"C5", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C5", "target":"C2", "type":"", "strength":"1"},
+	{"source":"C5", "target":"C4", "type":"", "strength":"1"},
+	{"source":"C9", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C20", "target":"C1", "type":"", "strength":"6"},
+	{"source":"C20", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C20", "target":"C4", "type":"", "strength":"1"},
+	{"source":"C20", "target":"C21", "type":"", "strength":"2"},
+	{"source":"C21", "target":"C20", "type":"", "strength":"1"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C2", "type":"", "strength":"4"},
+	{"source":"C1", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C1", "target":"C12", "type":"", "strength":"4"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C2", "target":"C3", "type":"", "strength":"7"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"6"},
+	{"source":"C12", "target":"C1", "type":"", "strength":"11"},
+	{"source":"C12", "target":"C4", "type":"", "strength":"1"},
+	{"source":"C12", "target":"C9", "type":"", "strength":"2"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C3", "type":"", "strength":"17"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"11"},
+	{"source":"C1", "target":"C8", "type":"", "strength":"6"},
+	{"source":"C1", "target":"C9", "type":"", "strength":"9"},
+	{"source":"C1", "target":"C21", "type":"", "strength":"2"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"19"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"13"},
+	{"source":"C3", "target":"C5", "type":"", "strength":"1"},
+	{"source":"C3", "target":"C8", "type":"", "strength":"2"},
+	{"source":"C3", "target":"C9", "type":"", "strength":"4"},
+	{"source":"C3", "target":"C21", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"17"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"10"},
+	{"source":"C4", "target":"C9", "type":"", "strength":"3"},
+	{"source":"C5", "target":"C1", "type":"", "strength":"10"},
+	{"source":"C5", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C5", "target":"C9", "type":"", "strength":"1"},
+	{"source":"C5", "target":"C11", "type":"", "strength":"7"},
+	{"source":"C5", "target":"C21", "type":"", "strength":"1"},
+	{"source":"C8", "target":"C1", "type":"", "strength":"8"},
+	{"source":"C8", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C8", "target":"C5", "type":"", "strength":"1"},
+	{"source":"C9", "target":"C1", "type":"", "strength":"4"},
+	{"source":"C9", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C9", "target":"C5", "type":"", "strength":"1"},
+	{"source":"C11", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C11", "target":"C5", "type":"", "strength":"3"},
+	{"source":"C14", "target":"C1", "type":"", "strength":"3"},
+	{"source":"C16", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C16", "target":"C14", "type":"", "strength":"1"},
+	{"source":"C17", "target":"C21", "type":"", "strength":"4"},
+	{"source":"C21", "target":"C1", "type":"", "strength":"3"},
+	{"source":"C21", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C21", "target":"C4", "type":"", "strength":"1"},
+	{"source":"C21", "target":"C9", "type":"", "strength":"1"},
+	{"source":"C21", "target":"C17", "type":"", "strength":"5"}	
+  ],
+  
+  [
+	{"source":"C1", "target":"C3", "type":"", "strength":"18"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"6"},
+	{"source":"C1", "target":"C11", "type":"", "strength":"9"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"22"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"5"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"3"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"3"},
+	{"source":"C5", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C5", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C5", "target":"C4", "type":"", "strength":"5"},
+	{"source":"C8", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C8", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C10", "target":"C7", "type":"", "strength":"1"},
+	{"source":"C11", "target":"C1", "type":"", "strength":"25"},
+	{"source":"C12", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C12", "target":"C3", "type":"", "strength":"1"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C2", "type":"", "strength":"7"},
+	{"source":"C1", "target":"C3", "type":"", "strength":"4"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"2"},
+	{"source":"C1", "target":"C12", "type":"", "strength":"1"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"7"},
+	{"source":"C2", "target":"C3", "type":"", "strength":"9"},
+	{"source":"C2", "target":"C4", "type":"", "strength":"3"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C3", "target":"C2", "type":"", "strength":"5"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"5"},
+	{"source":"C3", "target":"C9", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"6"},
+	{"source":"C4", "target":"C2", "type":"", "strength":"3"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"5"},
+	{"source":"C11", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C11", "target":"C14", "type":"", "strength":"1"},
+	{"source":"C11", "target":"C16", "type":"", "strength":"1"},
+	{"source":"C12", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C12", "target":"C17", "type":"", "strength":"2"},
+	{"source":"C14", "target":"C1", "type":"", "strength":"4"},
+	{"source":"C16", "target":"C1", "type":"", "strength":"16"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C2", "type":"", "strength":"4"},
+	{"source":"C1", "target":"C3", "type":"", "strength":"26"},
+	{"source":"C1", "target":"C7", "type":"", "strength":"7"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"7"},
+	{"source":"C2", "target":"C3", "type":"", "strength":"3"},
+	{"source":"C2", "target":"C4", "type":"", "strength":"3"},
+	{"source":"C2", "target":"C12", "type":"", "strength":"2"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"42"},
+	{"source":"C3", "target":"C2", "type":"", "strength":"2"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"3"},
+	{"source":"C3", "target":"C8", "type":"", "strength":"2"},
+	{"source":"C3", "target":"C16", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"3"},
+	{"source":"C4", "target":"C2", "type":"", "strength":"2"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"4"},
+	{"source":"C5", "target":"C2", "type":"", "strength":"1"},
+	{"source":"C7", "target":"C1", "type":"", "strength":"16"},
+	{"source":"C8", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C12", "target":"C2", "type":"", "strength":"1"},
+	{"source":"C12", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C12", "target":"C17", "type":"", "strength":"1"},
+	{"source":"C14", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C14", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C14", "target":"C16", "type":"", "strength":"2"},
+	{"source":"C14", "target":"C20", "type":"", "strength":"1"},
+	{"source":"C16", "target":"C3", "type":"", "strength":"4"},
+	{"source":"C16", "target":"C14", "type":"", "strength":"1"},
+	{"source":"C16", "target":"C20", "type":"", "strength":"2"},
+	{"source":"C17", "target":"C12", "type":"", "strength":"1"},
+	{"source":"C20", "target":"C14", "type":"", "strength":"1"}
+  ],
+  
+  [
+	{"source":"C1", "target":"C3", "type":"", "strength":"12"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"13"},
+	{"source":"C1", "target":"C9", "type":"", "strength":"2"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"8"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"10"},
+	{"source":"C3", "target":"C8", "type":"", "strength":"1"},
+	{"source":"C3", "target":"C9", "type":"", "strength":"3"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"15"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"14"},
+	{"source":"C4", "target":"C9", "type":"", "strength":"3"},
+	{"source":"C7", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C8", "target":"C3", "type":"", "strength":"3"},
+	{"source":"C8", "target":"C9", "type":"", "strength":"3"},
+	{"source":"C9", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C9", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C9", "target":"C4", "type":"", "strength":"3"},
+	{"source":"C9", "target":"C8", "type":"", "strength":"1"},
+	{"source":"C10", "target":"C12", "type":"", "strength":"4"},
+	{"source":"C11", "target":"C1", "type":"", "strength":"1"},
+	{"source":"C11", "target":"C14", "type":"", "strength":"2"},
+	{"source":"C11", "target":"C16", "type":"", "strength":"4"},
+	{"source":"C12", "target":"C10", "type":"", "strength":"8"},
+	{"source":"C14", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C16", "target":"C11", "type":"", "strength":"2"}
+  ],
+  
+   [
+	{"source":"C1", "target":"C2", "type":"", "strength":"15"},
+	{"source":"C1", "target":"C3", "type":"", "strength":"9"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"10"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"27"},
+	{"source":"C2", "target":"C3", "type":"", "strength":"15"},
+	{"source":"C2", "target":"C4", "type":"", "strength":"18"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"18"},
+	{"source":"C3", "target":"C2", "type":"", "strength":"5"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"15"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"3"},
+	{"source":"C4", "target":"C2", "type":"", "strength":"8"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"8"},
+	{"source":"C5", "target":"C8", "type":"", "strength":"3"},
+	{"source":"C8", "target":"C5", "type":"", "strength":"1"},
+	{"source":"C17", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C17", "target":"C4", "type":"", "strength":"2"}
+  ],
+  
+   [
+	{"source":"C1", "target":"C2", "type":"", "strength":"4"},
+	{"source":"C1", "target":"C3", "type":"", "strength":"8"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"8"},
+	{"source":"C1", "target":"C5", "type":"", "strength":"3"},
+	{"source":"C1", "target":"C8", "type":"", "strength":"1"},
+	{"source":"C1", "target":"C22", "type":"", "strength":"10"},
+	{"source":"C1", "target":"C24", "type":"", "strength":"1"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"23"},
+	{"source":"C2", "target":"C4", "type":"", "strength":"17"},
+	{"source":"C2", "target":"C8", "type":"", "strength":"12"},
+	{"source":"C2", "target":"C9", "type":"", "strength":"6"},
+	{"source":"C2", "target":"C17", "type":"", "strength":"3"},
+	{"source":"C2", "target":"C24", "type":"", "strength":"11"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"9"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"4"},
+	{"source":"C4", "target":"C2", "type":"", "strength":"3"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C24", "type":"", "strength":"1"},
+	{"source":"C5", "target":"C1", "type":"", "strength":"7"},
+	{"source":"C5", "target":"C4", "type":"", "strength":"5"},
+	{"source":"C5", "target":"C9", "type":"", "strength":"5"},
+	{"source":"C8", "target":"C2", "type":"", "strength":"4"},
+	{"source":"C8", "target":"C17", "type":"", "strength":"2"},
+	{"source":"C9", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C10", "target":"C23", "type":"", "strength":"2"},
+	{"source":"C11", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C17", "target":"C1", "type":"", "strength":"4"},
+	{"source":"C17", "target":"C2", "type":"", "strength":"4"},
+	{"source":"C17", "target":"C4", "type":"", "strength":"3"},
+	{"source":"C17", "target":"C8", "type":"", "strength":"5"},
+	{"source":"C17", "target":"C9", "type":"", "strength":"3"},
+	{"source":"C22", "target":"C1", "type":"", "strength":"13"},
+	{"source":"C24", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C24", "target":"C2", "type":"", "strength":"8"},
+	{"source":"C24", "target":"C4", "type":"", "strength":"3"}
+  ],
+  
+   [
+	{"source":"C1", "target":"C2", "type":"", "strength":"3"},
+	{"source":"C1", "target":"C3", "type":"", "strength":"53"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"69"},
+	{"source":"C1", "target":"C5", "type":"", "strength":"8"},
+	{"source":"C1", "target":"C9", "type":"", "strength":"5"},
+	{"source":"C1", "target":"C12", "type":"", "strength":"1"},
+	{"source":"C1", "target":"C21", "type":"", "strength":"4"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"10"},
+	{"source":"C2", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C2", "target":"C4", "type":"", "strength":"2"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"47"},
+	{"source":"C3", "target":"C2", "type":"", "strength":"1"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"32"},
+	{"source":"C3", "target":"C9", "type":"", "strength":"5"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"45"},
+	{"source":"C4", "target":"C3", "type":"", "strength":"16"},
+	{"source":"C4", "target":"C5", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C9", "type":"", "strength":"5"},
+	{"source":"C5", "target":"C1", "type":"", "strength":"12"},
+	{"source":"C5", "target":"C3", "type":"", "strength":"4"},
+	{"source":"C5", "target":"C4", "type":"", "strength":"4"},
+	{"source":"C9", "target":"C1", "type":"", "strength":"6"},
+	{"source":"C9", "target":"C3", "type":"", "strength":"10"},
+	{"source":"C9", "target":"C4", "type":"", "strength":"6"},
+	{"source":"C12", "target":"C1", "type":"", "strength":"5"},
+	{"source":"C12", "target":"C3", "type":"", "strength":"2"},
+	{"source":"C12", "target":"C4", "type":"", "strength":"2"},
+	{"source":"C21", "target":"C1", "type":"", "strength":"4"}
+  ],
+  
+   [
+	{"source":"C1", "target":"C2", "type":"", "strength":"5"},
+	{"source":"C1", "target":"C3", "type":"", "strength":"6"},
+	{"source":"C1", "target":"C4", "type":"", "strength":"6"},
+	{"source":"C1", "target":"C7", "type":"", "strength":"24"},
+	{"source":"C1", "target":"C10", "type":"", "strength":"11"},
+	{"source":"C1", "target":"C13", "type":"", "strength":"2"},
+	{"source":"C1", "target":"C23", "type":"", "strength":"2"},
+	{"source":"C2", "target":"C1", "type":"", "strength":"7"},
+	{"source":"C3", "target":"C1", "type":"", "strength":"12"},
+	{"source":"C3", "target":"C4", "type":"", "strength":"1"},
+	{"source":"C4", "target":"C1", "type":"", "strength":"7"},
+	{"source":"C6", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C6", "target":"C13", "type":"", "strength":"1"},
+	{"source":"C7", "target":"C1", "type":"", "strength":"32"},
+	{"source":"C10", "target":"C1", "type":"", "strength":"31"},
+	{"source":"C10", "target":"C23", "type":"", "strength":"3"},
+	{"source":"C13", "target":"C1", "type":"", "strength":"2"},
+	{"source":"C13", "target":"C6", "type":"", "strength":"1"},
+	{"source":"C13", "target":"C15", "type":"", "strength":"1"},
+	{"source":"C13", "target":"C18", "type":"", "strength":"1"},
+	{"source":"C23", "target":"C1", "type":"", "strength":"7"},
+	{"source":"C23", "target":"C10", "type":"", "strength":"8"}
+  ]
+  ]
+}

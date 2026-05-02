@@ -1,0 +1,1667 @@
+{
+    "characters": [
+        {
+            "id": "C1",
+            "name": "Hercule Poirot",
+            "role": "character1",
+            "startNode": [
+                "herculepoirot"
+            ],
+            "desc": "Brilliant Belgian detective, renowned for his meticulous methods and keen attention to detail in solving crimes."
+        },
+        {
+            "id": "C2",
+            "name": "Arthur Hastings",
+            "role": "character2",
+            "startNode": [
+                "arthurhastings"
+            ],
+            "desc": "Poirot's close friend, serving as the story narrator, characterized by his loyalty, curiosity, and occasional impulsiveness."
+        },
+        {
+            "id": "C3",
+            "name": "John Cavendish",
+            "role": "character3",
+            "startNode": [
+                "johncavendish"
+            ],
+            "desc": "Emily Inglethorp's stepson, practical and reserved, with a strained relationship with his stepmother."
+        },
+        {
+            "id": "C4",
+            "name": "Mary Cavendish",
+            "role": "character4",
+            "startNode": [
+                "marycavendish"
+            ],
+            "desc": "John's wife, dignified and composed, concealing deeper emotions beneath her serene exterior."
+        },
+        {
+            "id": "C5",
+            "name": "Evelyn Howard",
+            "role": "character5",
+            "startNode": [
+                "evelynhoward"
+            ],
+            "desc": "Friend of the family, spirited and outspoken, providing a contrast to the reserved English mannerisms."
+        },
+        {
+            "id": "C6",
+            "name": "Cynthia Murdoch",
+            "role": "character6",
+            "startNode": [
+                "cynthiamurdoch"
+            ],
+            "desc": "Emily Inglethorp's loyal companion, kind-hearted and observant, drawn into the unfolding mystery."
+        },
+        {
+            "id": "C7",
+            "name": "Dorcas",
+            "role": "character7",
+            "startNode": [
+                "dorcas"
+            ],
+            "desc": "The loyal housekeeper at Styles Court, discreet and observant, possessing a keen awareness of household matters."
+        },
+        {
+            "id": "C8",
+            "name": "Lawrence Cavendish",
+            "role": "character8",
+            "startNode": [
+                "lawrencecavendish"
+            ],
+            "desc": "Emily's younger stepson, struggling with his emotions, perceived as impulsive and somewhat troubled."
+        },
+        {
+            "id": "C9",
+            "name": "Coroner",
+            "role": "character9",
+            "startNode": [
+                "coroner"
+            ],
+            "desc": "Official responsible for determining the cause of death, a minor character involved in the investigation process."
+        },
+        {
+            "id": "C10",
+            "name": "Alfred Inglethorp",
+            "role": "character10",
+            "startNode": [
+                "alfredinglethorp"
+            ],
+            "desc": "Emily's wealthy and much younger second husband, under suspicion due to his contentious relationship with her."
+        },
+        {
+            "id": "C11",
+            "name": "Inspector Japp",
+            "role": "character11",
+            "startNode": [
+                "inspectorjapp"
+            ],
+            "desc": "Scotland Yard detective, works closely with Poirot, characterized by his no-nonsense approach to crime-solving."
+        },
+        {
+            "id": "C12",
+            "name": "Annie",
+            "role": "character12",
+            "startNode": [
+                "annie"
+            ],
+            "desc": "Styles Court maid, minor character, offers insight into household dynamics and events."
+        },
+        {
+            "id": "C13",
+            "name": "Sir Ernest Heavywether",
+            "role": "character13",
+            "startNode": [
+                "sirernestheavywether"
+            ],
+            "desc": "A prominent lawyer involved in legal matters concerning the Inglethorp family."
+        },
+        {
+            "id": "C14",
+            "name": "Mr. Wells",
+            "role": "character14",
+            "startNode": [
+                "mrwells"
+            ],
+            "desc": "A chemist with knowledge of poisons, consulted during the investigation for his expertise."
+        },
+        {
+            "id": "C15",
+            "name": "Dr. Bauerstein",
+            "role": "character15",
+            "startNode": [
+                "drbauerstein"
+            ],
+            "desc": "Emily Inglethorp's physician, knowledgeable about toxicology, scrutinized due to his access to medicines."
+        },
+        {
+            "id": "C16",
+            "name": "Supt. Summerhaye",
+            "role": "character16",
+            "startNode": [
+                "superintendentsummerhaye"
+            ],
+            "desc": "Superintendent overseeing the case, practical and professional in his approach to law enforcement."
+        },
+        {
+            "id": "C17",
+            "name": "Mr. Philips",
+            "role": "character17",
+            "startNode": [
+                "mrphilips"
+            ],
+            "desc": "A local solicitor, involved in legal affairs pertaining to the Inglethorp family estate."
+        },
+        {
+            "id": "C18",
+            "name": "Emily Inglethorp",
+            "role": "character18",
+            "startNode": [
+                "emilyinglethorp"
+            ],
+            "desc": "The wealthy matriarch whose death initiates the investigation, characterized by her strong will and sharp tongue."
+        },
+        {
+            "id": "C19",
+            "name": "Manning",
+            "role": "character19",
+            "startNode": [
+                "manning"
+            ],
+            "desc": "Gardener at Styles."
+        },
+        {
+            "id": "C20",
+            "name": "Albert Mace",
+            "role": "character20",
+            "startNode": [
+                "albertmace"
+            ],
+            "desc": "Styles Court pharmacist, minor character with knowledge of drugs and medications."
+        },
+        {
+            "id": "C21",
+            "name": "Dr. Wilkins",
+            "role": "character21",
+            "startNode": [
+                "drwilkins"
+            ],
+            "desc": "Another local physician, possibly consulted during the investigation for medical insights."
+        }
+    ],
+    "relationships": [
+        [
+            {
+                "source": "C3",
+                "target": "C2",
+                "type": "",
+                "strength": "24"
+            },
+            {
+                "source": "C3",
+                "target": "C5",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C3",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C2",
+                "target": "C3",
+                "type": "",
+                "strength": "13"
+            },
+            {
+                "source": "C2",
+                "target": "C5",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C2",
+                "target": "C10",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C2",
+                "target": "C4",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C2",
+                "target": "C6",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C5",
+                "target": "C3",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C5",
+                "target": "C2",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C5",
+                "target": "C4",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C18",
+                "target": "C2",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C18",
+                "target": "C10",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C18",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C18",
+                "target": "C6",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C10",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C10",
+                "target": "C18",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C4",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C4",
+                "target": "C2",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C4",
+                "target": "C5",
+                "type": "",
+                "strength": "6"
+            },
+            {
+                "source": "C6",
+                "target": "C2",
+                "type": "",
+                "strength": "6"
+            },
+            {
+                "source": "C6",
+                "target": "C18",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C18",
+                "target": "C6",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C18",
+                "target": "C2",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C18",
+                "target": "C7",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C18",
+                "target": "C4",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C6",
+                "target": "C18",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C6",
+                "target": "C2",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C6",
+                "target": "C15",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C6",
+                "target": "C8",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C2",
+                "target": "C6",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C2",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C6",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C7",
+                "target": "C18",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C4",
+                "target": "C18",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C4",
+                "target": "C6",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C4",
+                "target": "C2",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C4",
+                "target": "C15",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C10",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C10",
+                "target": "C15",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C10",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C15",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C15",
+                "target": "C3",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C3",
+                "target": "C15",
+                "type": "",
+                "strength": "2"
+            }
+        ],
+        [
+            {
+                "source": "C2",
+                "target": "C8",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C2",
+                "target": "C3",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C2",
+                "target": "C4",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C8",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C8",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C3",
+                "target": "C2",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C3",
+                "target": "C8",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C3",
+                "target": "C7",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C3",
+                "target": "C21",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C3",
+                "target": "C15",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C7",
+                "target": "C3",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C18",
+                "target": "C2",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C18",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C18",
+                "target": "C7",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C18",
+                "target": "C15",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C4",
+                "target": "C2",
+                "type": "",
+                "strength": "6"
+            },
+            {
+                "source": "C4",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C21",
+                "target": "C2",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C21",
+                "target": "C8",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C21",
+                "target": "C3",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C21",
+                "target": "C15",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C15",
+                "target": "C3",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C15",
+                "target": "C21",
+                "type": "",
+                "strength": "2"
+            }
+        ],
+        [
+            {
+                "source": "C2",
+                "target": "C10",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "50"
+            },
+            {
+                "source": "C2",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C10",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "81"
+            },
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C1",
+                "target": "C7",
+                "type": "",
+                "strength": "31"
+            },
+            {
+                "source": "C1",
+                "target": "C12",
+                "type": "",
+                "strength": "26"
+            },
+            {
+                "source": "C3",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C7",
+                "target": "C1",
+                "type": "",
+                "strength": "31"
+            },
+            {
+                "source": "C12",
+                "target": "C1",
+                "type": "",
+                "strength": "25"
+            }
+        ],
+        [
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "63"
+            },
+            {
+                "source": "C2",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C2",
+                "target": "C4",
+                "type": "",
+                "strength": "10"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "79"
+            },
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "25"
+            },
+            {
+                "source": "C1",
+                "target": "C6",
+                "type": "",
+                "strength": "10"
+            },
+            {
+                "source": "C1",
+                "target": "C14",
+                "type": "",
+                "strength": "20"
+            },
+            {
+                "source": "C1",
+                "target": "C19",
+                "type": "",
+                "strength": "13"
+            },
+            {
+                "source": "C1",
+                "target": "C5",
+                "type": "",
+                "strength": "10"
+            },
+            {
+                "source": "C1",
+                "target": "C20",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C3",
+                "target": "C2",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "32"
+            },
+            {
+                "source": "C3",
+                "target": "C7",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C3",
+                "target": "C14",
+                "type": "",
+                "strength": "14"
+            },
+            {
+                "source": "C3",
+                "target": "C19",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C3",
+                "target": "C5",
+                "type": "",
+                "strength": "9"
+            },
+            {
+                "source": "C6",
+                "target": "C2",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C6",
+                "target": "C1",
+                "type": "",
+                "strength": "6"
+            },
+            {
+                "source": "C7",
+                "target": "C3",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C14",
+                "target": "C1",
+                "type": "",
+                "strength": "17"
+            },
+            {
+                "source": "C14",
+                "target": "C3",
+                "type": "",
+                "strength": "16"
+            },
+            {
+                "source": "C19",
+                "target": "C1",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C19",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C5",
+                "target": "C2",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C5",
+                "target": "C1",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C5",
+                "target": "C3",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C4",
+                "target": "C2",
+                "type": "",
+                "strength": "9"
+            },
+            {
+                "source": "C20",
+                "target": "C1",
+                "type": "",
+                "strength": "5"
+            }
+        ],
+        [
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C9",
+                "target": "C15",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C9",
+                "target": "C8",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C9",
+                "target": "C21",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C9",
+                "target": "C4",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C9",
+                "target": "C6",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C9",
+                "target": "C5",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C9",
+                "target": "C20",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C9",
+                "target": "C10",
+                "type": "",
+                "strength": "20"
+            },
+            {
+                "source": "C15",
+                "target": "C9",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C8",
+                "target": "C9",
+                "type": "",
+                "strength": "6"
+            },
+            {
+                "source": "C21",
+                "target": "C9",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C4",
+                "target": "C9",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C6",
+                "target": "C9",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C5",
+                "target": "C9",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C20",
+                "target": "C9",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C10",
+                "target": "C8",
+                "type": "",
+                "strength": "19"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C11",
+                "type": "",
+                "strength": "13"
+            },
+            {
+                "source": "C1",
+                "target": "C16",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "45"
+            },
+            {
+                "source": "C1",
+                "target": "C10",
+                "type": "",
+                "strength": "17"
+            },
+            {
+                "source": "C1",
+                "target": "C6",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C5",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C8",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C11",
+                "target": "C1",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C11",
+                "target": "C16",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C16",
+                "target": "C1",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "36"
+            },
+            {
+                "source": "C10",
+                "target": "C1",
+                "type": "",
+                "strength": "7"
+            }
+        ],
+        [
+            {
+                "source": "C11",
+                "target": "C1",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C11",
+                "target": "C10",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C11",
+                "target": "C3",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C11",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C10",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "79"
+            },
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C7",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C5",
+                "type": "",
+                "strength": "25"
+            },
+            {
+                "source": "C10",
+                "target": "C11",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C10",
+                "target": "C1",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "58"
+            },
+            {
+                "source": "C2",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C2",
+                "target": "C7",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C3",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C7",
+                "target": "C1",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C7",
+                "target": "C2",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C5",
+                "target": "C1",
+                "type": "",
+                "strength": "28"
+            }
+        ],
+        [
+            {
+                "source": "C2",
+                "target": "C8",
+                "type": "",
+                "strength": "10"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "10"
+            },
+            {
+                "source": "C2",
+                "target": "C3",
+                "type": "",
+                "strength": "26"
+            },
+            {
+                "source": "C2",
+                "target": "C6",
+                "type": "",
+                "strength": "16"
+            },
+            {
+                "source": "C8",
+                "target": "C2",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C8",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "10"
+            },
+            {
+                "source": "C1",
+                "target": "C8",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C4",
+                "target": "C1",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C4",
+                "target": "C3",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C3",
+                "target": "C2",
+                "type": "",
+                "strength": "27"
+            },
+            {
+                "source": "C3",
+                "target": "C8",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C3",
+                "target": "C4",
+                "type": "",
+                "strength": "13"
+            },
+            {
+                "source": "C3",
+                "target": "C6",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C3",
+                "target": "C5",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C6",
+                "target": "C2",
+                "type": "",
+                "strength": "18"
+            },
+            {
+                "source": "C5",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C3",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C2",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "65"
+            },
+            {
+                "source": "C2",
+                "target": "C7",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C2",
+                "target": "C4",
+                "type": "",
+                "strength": "16"
+            },
+            {
+                "source": "C2",
+                "target": "C8",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "68"
+            },
+            {
+                "source": "C1",
+                "target": "C7",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C5",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C7",
+                "target": "C2",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C7",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C7",
+                "target": "C4",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C4",
+                "target": "C2",
+                "type": "",
+                "strength": "35"
+            },
+            {
+                "source": "C4",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C8",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "33"
+            },
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "26"
+            },
+            {
+                "source": "C2",
+                "target": "C4",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C13",
+                "target": "C15",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C13",
+                "target": "C11",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C13",
+                "target": "C8",
+                "type": "",
+                "strength": "18"
+            },
+            {
+                "source": "C15",
+                "target": "C13",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C17",
+                "target": "C7",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C17",
+                "target": "C5",
+                "type": "",
+                "strength": "9"
+            },
+            {
+                "source": "C17",
+                "target": "C3",
+                "type": "",
+                "strength": "10"
+            },
+            {
+                "source": "C7",
+                "target": "C17",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C5",
+                "target": "C17",
+                "type": "",
+                "strength": "9"
+            },
+            {
+                "source": "C4",
+                "target": "C2",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C11",
+                "target": "C13",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C11",
+                "target": "C17",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C8",
+                "target": "C13",
+                "type": "",
+                "strength": "15"
+            },
+            {
+                "source": "C3",
+                "target": "C13",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C3",
+                "target": "C17",
+                "type": "",
+                "strength": "9"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "38"
+            },
+            {
+                "source": "C1",
+                "target": "C5",
+                "type": "",
+                "strength": "34"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "34"
+            },
+            {
+                "source": "C1",
+                "target": "C8",
+                "type": "",
+                "strength": "36"
+            },
+            {
+                "source": "C1",
+                "target": "C6",
+                "type": "",
+                "strength": "35"
+            },
+            {
+                "source": "C1",
+                "target": "C7",
+                "type": "",
+                "strength": "33"
+            },
+            {
+                "source": "C1",
+                "target": "C12",
+                "type": "",
+                "strength": "33"
+            },
+            {
+                "source": "C1",
+                "target": "C11",
+                "type": "",
+                "strength": "33"
+            },
+            {
+                "source": "C1",
+                "target": "C16",
+                "type": "",
+                "strength": "33"
+            },
+            {
+                "source": "C1",
+                "target": "C10",
+                "type": "",
+                "strength": "32"
+            },
+            {
+                "source": "C4",
+                "target": "C1",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C5",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C8",
+                "target": "C1",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C8",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C6",
+                "target": "C1",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C7",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C12",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C11",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C16",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C10",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            }
+        ],
+        [
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "64"
+            },
+            {
+                "source": "C2",
+                "target": "C6",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "72"
+            },
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C8",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C6",
+                "target": "C2",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C6",
+                "target": "C1",
+                "type": "",
+                "strength": "3"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,839 @@
+{
+    "characters": [
+        {
+            "id": "C1",
+            "name": "James diGriz",
+            "role": "character1",
+            "startNode": [
+                "jamesdigriz"
+            ],
+            "desc": "A cunning thief turned secret agent with a penchant for adventure and mischief."
+        },
+        {
+            "id": "C2",
+            "name": "Inskipp",
+            "role": "character2",
+            "startNode": [
+                "inskipp"
+            ],
+            "desc": "DiGriz's enigmatic superior in the Special Corps, with a knack for manipulation and strategy."
+        },
+        {
+            "id": "C3",
+            "name": "Angelina",
+            "role": "character3",
+            "startNode": [
+                "angelina"
+            ],
+            "desc": "A femme fatale and love interest of diGriz, entangled in his adventures."
+        },
+        {
+            "id": "C4",
+            "name": "Count of Rdenrundt",
+            "role": "character4",
+            "startNode": [
+                "thecountofrdenrundt"
+            ],
+            "desc": "A wealthy and influential figure embroiled in diGriz's schemes."
+        },
+        {
+            "id": "C5",
+            "name": "Pepe",
+            "role": "character5",
+            "startNode": [
+                "pepe"
+            ],
+            "desc": "Angelina's loyal partner in crime and escapades."
+        },
+        {
+            "id": "C6",
+            "name": "Vulff Sifternitz",
+            "role": "character6",
+            "startNode": [
+                "vulffsifternitz"
+            ],
+            "desc": "A plastic surgeon with questionable practices and ethics."
+        },
+        {
+            "id": "C7",
+            "name": "President Ferraro",
+            "role": "character7",
+            "startNode": [
+                "presidentferraro"
+            ],
+            "desc": "A political figure entangled in diGriz's covert operations."
+        },
+        {
+            "id": "C8",
+            "name": "Captain Steng",
+            "role": "character8",
+            "startNode": [
+                "captainsteng"
+            ],
+            "desc": "The captain of a ship diGriz travels on."
+        },
+        {
+            "id": "C9",
+            "name": "Rocca",
+            "role": "character9",
+            "startNode": [
+                "rocca"
+            ],
+            "desc": "An engineer in a spaceport."
+        },
+        {
+            "id": "C10",
+            "name": "Corps Robot",
+            "role": "character10",
+            "startNode": [
+                "corpsrobot"
+            ],
+            "desc": "A robot that serves the Corps."
+        },
+        {
+            "id": "C11",
+            "name": "Royal Attorney",
+            "role": "character11",
+            "startNode": [
+                "royalattorney"
+            ],
+            "desc": "The attorney at the royal court."
+        },
+        {
+            "id": "C12",
+            "name": "Psiman",
+            "role": "character12",
+            "startNode": [
+                "psiman"
+            ],
+            "desc": "A worker on a ship who relays messages telepathically."
+        },
+        {
+            "id": "C13",
+            "name": "Queen Helda",
+            "role": "character13",
+            "startNode": [
+                "queenhelda"
+            ],
+            "desc": "The queen at the royal court."
+        },
+        {
+            "id": "C14",
+            "name": "Rdenrundt Thug",
+            "role": "character14",
+            "startNode": [
+                "rdenrundtthug"
+            ],
+            "desc": "A member of the Count's criminal entourage."
+        },
+        {
+            "id": "C15",
+            "name": "King Villelm",
+            "role": "character15",
+            "startNode": [
+                "kingvillelm"
+            ],
+            "desc": "The king at the royal court."
+        },
+        {
+            "id": "C16",
+            "name": "Royal Attendant",
+            "role": "character16",
+            "startNode": [
+                "royalattendant"
+            ],
+            "desc": "An attendant at the royal court."
+        },
+        {
+            "id": "C17",
+            "name": "Doctor Mcvbklz",
+            "role": "character17",
+            "startNode": [
+                "doctormcvbklz"
+            ],
+            "desc": "A doctor who writes his name so that it is illegible."
+        },
+        {
+            "id": "C18",
+            "name": "Nielsen",
+            "role": "character18",
+            "startNode": [
+                "nielsen"
+            ],
+            "desc": "A member of the Corps."
+        },
+        {
+            "id": "C19",
+            "name": "Kurt",
+            "role": "character19",
+            "startNode": [
+                "kurt"
+            ],
+            "desc": "A relative of the Count."
+        },
+        {
+            "id": "C20",
+            "name": "Cop George",
+            "role": "character20",
+            "startNode": [
+                "copgeorge"
+            ],
+            "desc": "A policeman who attempts to arrest diGriz."
+        },
+        {
+            "id": "C21",
+            "name": "Sympathetic Hospital Worker",
+            "role": "character21",
+            "startNode": [
+                "sympathetichospitalworker"
+            ],
+            "desc": "A hospital worker with a sympathetic disposition."
+        },
+        {
+            "id": "C22",
+            "name": "Cool Hospital Worker",
+            "role": "character22",
+            "startNode": [
+                "coolhospitalworker"
+            ],
+            "desc": "A hospital worker with a cool disposition."
+        },
+        {
+            "id": "C23",
+            "name": "Castle Guard",
+            "role": "character23",
+            "startNode": [
+                "castleguard"
+            ],
+            "desc": "A guard at the royal court."
+        },
+        {
+            "id": "C24",
+            "name": "Clerk",
+            "role": "character24",
+            "startNode": [
+                "clerk"
+            ],
+            "desc": "A clerk at a bank."
+        },
+        {
+            "id": "C25",
+            "name": "Ship Mechanic",
+            "role": "character25",
+            "startNode": [
+                "shipmechanic"
+            ],
+            "desc": "A ship mechanic."
+        },
+        {
+            "id": "C26",
+            "name": "Prison Turnkey",
+            "role": "character26",
+            "startNode": [
+                "prisonturnkey"
+            ],
+            "desc": "A prison guard who holds the key."
+        },
+        {
+            "id": "C27",
+            "name": "Customs Official",
+            "role": "character27",
+            "startNode": [
+                "customsofficial"
+            ],
+            "desc": "A customs official who diGriz must get past."
+        },
+        {
+            "id": "C28",
+            "name": "Old Robot",
+            "role": "character28",
+            "startNode": [
+                "oldrobot"
+            ],
+            "desc": "The Count's old robot that appears to be malfunctioning."
+        },
+        {
+            "id": "C29",
+            "name": "Bank Cashier",
+            "role": "character29",
+            "startNode": [
+                "bankcashier"
+            ],
+            "desc": "A cashier at a bank."
+        },
+        {
+            "id": "C30",
+            "name": "Bartender",
+            "role": "character30",
+            "startNode": [
+                "bartender"
+            ],
+            "desc": "A bartender on another planet."
+        },
+        {
+            "id": "C31",
+            "name": "Bar Customer",
+            "role": "character31",
+            "startNode": [
+                "barcustomer"
+            ],
+            "desc": "A bar customer diGriz fights."
+        },
+        {
+            "id": "C32",
+            "name": "Zug",
+            "role": "character32",
+            "startNode": [
+                "zug"
+            ],
+            "desc": "A strange man with a boat who helps diGriz out."
+        },
+        {
+            "id": "C33",
+            "name": "Hospital Worker",
+            "role": "character33",
+            "startNode": [
+                "hospitalworker"
+            ],
+            "desc": "A hospital worker."
+        },
+        {
+            "id": "C34",
+            "name": "Shipping Department Robot",
+            "role": "character34",
+            "startNode": [
+                "shippingdepartmentrobot"
+            ],
+            "desc": "A robot in a shipping department diGriz needs to get past."
+        },
+        {
+            "id": "C35",
+            "name": "Svend",
+            "role": "character35",
+            "startNode": [
+                "svend"
+            ],
+            "desc": "A named hospital worker."
+        }
+    ],
+    "relationships": [
+        [
+            {
+                "source": "C1",
+                "target": "C20",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C20",
+                "target": "C1",
+                "type": "",
+                "strength": "3"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C34",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "14"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "18"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "23"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C7",
+                "type": "",
+                "strength": "16"
+            },
+            {
+                "source": "C1",
+                "target": "C9",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C1",
+                "target": "C10",
+                "type": "",
+                "strength": "9"
+            },
+            {
+                "source": "C1",
+                "target": "C24",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C27",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C7",
+                "target": "C1",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C9",
+                "target": "C1",
+                "type": "",
+                "strength": "8"
+            },
+            {
+                "source": "C10",
+                "target": "C1",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C24",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C8",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C1",
+                "target": "C12",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C8",
+                "target": "C1",
+                "type": "",
+                "strength": "13"
+            },
+            {
+                "source": "C12",
+                "target": "C1",
+                "type": "",
+                "strength": "4"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C1",
+                "target": "C5",
+                "type": "",
+                "strength": "18"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C3",
+                "target": "C5",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C5",
+                "target": "C1",
+                "type": "",
+                "strength": "15"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C1",
+                "target": "C18",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C1",
+                "target": "C25",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "9"
+            },
+            {
+                "source": "C18",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C25",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C29",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C29",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C32",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "5"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C17",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C17",
+                "target": "C1",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C21",
+                "target": "C22",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C22",
+                "target": "C21",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C33",
+                "target": "C35",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C6",
+                "type": "",
+                "strength": "20"
+            },
+            {
+                "source": "C6",
+                "target": "C1",
+                "type": "",
+                "strength": "11"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C30",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C1",
+                "target": "C31",
+                "type": "",
+                "strength": "2"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C13",
+                "type": "",
+                "strength": "6"
+            },
+            {
+                "source": "C1",
+                "target": "C15",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C1",
+                "target": "C16",
+                "type": "",
+                "strength": "4"
+            },
+            {
+                "source": "C13",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C15",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C16",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C16",
+                "target": "C13",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C11",
+                "type": "",
+                "strength": "6"
+            },
+            {
+                "source": "C1",
+                "target": "C14",
+                "type": "",
+                "strength": "5"
+            },
+            {
+                "source": "C1",
+                "target": "C26",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C11",
+                "target": "C1",
+                "type": "",
+                "strength": "7"
+            },
+            {
+                "source": "C14",
+                "target": "C1",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C26",
+                "target": "C1",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "14"
+            },
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "16"
+            },
+            {
+                "source": "C1",
+                "target": "C14",
+                "type": "",
+                "strength": "1"
+            },
+            {
+                "source": "C1",
+                "target": "C19",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "11"
+            },
+            {
+                "source": "C3",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C4",
+                "target": "C1",
+                "type": "",
+                "strength": "22"
+            },
+            {
+                "source": "C4",
+                "target": "C3",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C4",
+                "target": "C23",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C4",
+                "target": "C28",
+                "type": "",
+                "strength": "3"
+            },
+            {
+                "source": "C19",
+                "target": "C1",
+                "type": "",
+                "strength": "2"
+            },
+            {
+                "source": "C23",
+                "target": "C4",
+                "type": "",
+                "strength": "2"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "16"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "14"
+            },
+            {
+                "source": "C4",
+                "target": "C3",
+                "type": "",
+                "strength": "1"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C3",
+                "type": "",
+                "strength": "24"
+            },
+            {
+                "source": "C1",
+                "target": "C4",
+                "type": "",
+                "strength": "12"
+            },
+            {
+                "source": "C3",
+                "target": "C1",
+                "type": "",
+                "strength": "27"
+            },
+            {
+                "source": "C4",
+                "target": "C1",
+                "type": "",
+                "strength": "14"
+            }
+        ],
+        [
+            {
+                "source": "C1",
+                "target": "C2",
+                "type": "",
+                "strength": "24"
+            },
+            {
+                "source": "C2",
+                "target": "C1",
+                "type": "",
+                "strength": "33"
+            }
+        ]
+    ]
+}
